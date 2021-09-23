@@ -8,6 +8,11 @@ double average(int x, int y)
 
 int main()
 {
+    // Q1: what is the output?
     cout << "average=" << average(3.6, 4.8) << endl;
+
+    // Q2: fix average()
+
+
     return 0;
 }

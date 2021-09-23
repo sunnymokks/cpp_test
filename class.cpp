@@ -33,8 +33,16 @@ class D: public B
 
 int main()
 {
+    // Q1: output of following 3 lines
     B* pB = new D;
     pB->work();
     delete pB;
+    // Q1.1: Any problem detected?
+
+    // Q2: Which class's work() is called?
+    D d;
+    B b = d;
+    b.work();
+
     return 0;
 }
